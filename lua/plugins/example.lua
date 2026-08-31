@@ -56,9 +56,14 @@ return {
     opts = {
       defaults = {
         layout_strategy = "horizontal",
-        layout_config = { prompt_position = "top" },
+        layout_config = {
+          prompt_position = "top",
+          width = 0.95,
+          preview_width = 0.4,
+        },
         sorting_strategy = "ascending",
         winblend = 0,
+        path_display = { "truncate" },
       },
     },
   },
